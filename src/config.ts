@@ -67,7 +67,8 @@ var CONFIGURATION = {
    * Set this config option to `false` to make encoder pushes in PAN mode toggle a channel's monitor
    * mode. In that case, you can still shift-press encoders to reset panners.
    */
-  resetPanOnEncoderPush: true,
+  resetPanOnEncoderPush: false,
+
 
   /**
    * The flags below control which channel types will be visible (i.e. mapped) on your device(s).
